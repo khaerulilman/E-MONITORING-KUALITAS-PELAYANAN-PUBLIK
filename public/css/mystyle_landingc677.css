@@ -1,0 +1,104 @@
+h6 {
+    font-weight: 800 !important;
+}
+
+.btn-masuk {
+    text-transform: uppercase;
+    font-weight: 800 !important;
+}
+
+.accordion-item:first-of-type {
+border-top-left-radius: 10px !important;
+border-top-right-radius: 10px !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-item h2#headingTwo {
+    border-top: 2px dotted #c8c8c8;
+    border-bottom: 2px dotted #c8c8c8;
+}
+
+.main-content {
+    margin-top: 6rem;
+}
+
+img{
+    filter: none !important;
+}
+
+.wrapper .page-body.auth::after {
+    background-image: url('../images/bg/auth.png') !important;
+}
+
+.title-login h2 {
+    font-weight: 800 !important;
+    background: -webkit-linear-gradient(#333 0%, #198754 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-login h6 {
+    color: #198754 !important;
+}
+
+.btn-padding {
+    padding: 1rem 0;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.btn-login-pegawai {
+    background-color: rgba(0, 172, 154, 1);
+}
+
+.btn-kembali-pegawai {
+    background-color: rgba(39, 148, 235, 1);
+}
+
+.btn-kembali-pegawai:hover {
+    color: #fff;
+}
+
+.card-login-pegawai {
+    border: none !important;
+    border-radius: unset !important;
+}
+
+.page-header-custom {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.card-indeks-custom {
+    padding: 4rem 1.5rem !important;
+}
+
+.btn.btn-animate-1::before {
+    background: rgba(231, 57, 87, 0.6) !important;
+}
+
+.btn.btn-animate-1:hover::before {
+    background: rgba(231, 57, 87, 0.6) !important;
+}
+
+.card-hover-pegawai {
+    color: black;
+}
+.card-hover-pegawai:hover {
+    /* cursor: pointer; */
+    background: rgba(255, 193, 7, 1); 
+}
+
+@media only screen and (max-width: 600px){
+    .h-sm-2 {
+        height: 2rem !important;
+    }
+}

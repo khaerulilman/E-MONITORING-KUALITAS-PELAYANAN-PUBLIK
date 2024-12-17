@@ -1,0 +1,397 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+body.style_2 {
+	background: url(https://emonkuyanlik.sumutprov.go.id/form_assets/img/pattern_3.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.wrapper-custom {
+	background: linear-gradient(165deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+	width: 100%;
+	background-position: center;
+	position: fixed;
+	overflow: auto;
+	height: 100%;
+}
+
+form#wrapped {
+	margin-bottom: 10rem;
+}
+
+footer#footer {
+	position: fixed !important;
+}
+
+.select2-container--krajee-bs4 .select2-selection {
+	background-color: rgba(0, 0, 0, 0.4);
+	border: none;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.select2-container--krajee-bs4 .select2-selection--single .select2-selection__rendered {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.select2-container--krajee-bs4:not(.select2-container--disabled) .select2-dropdown {
+	background-color: rgba(0, 0, 0, 0.8);
+	border: unset;
+}
+
+.select2-container--krajee-bs4 .select2-results__option[aria-selected='false'] {
+	background-color: rgba(0, 0, 0, 0.8) !important;
+	color: rgba(255, 255, 255, 1) !important;
+}
+
+.select2-container--krajee-bs4 .select2-selection--single .select2-selection__placeholder {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+ul#jenisPekerjaan {
+	grid-column-gap: 1rem;
+	grid-template-columns: auto auto auto;
+}
+
+#buttonWizard {
+	margin-top: 0.5rem;
+}
+
+.wrapper_centering {
+	padding-top: 60px !important;
+}
+
+h3.main_question strong {
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+h4.main_question {
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+p.main_question,
+h6.main_question,
+h4.main_question {
+	padding: 0;
+	font-weight: 500;
+	color: #fff;
+	font-size: 13px;
+}
+
+p.main_question {
+	opacity: 80% !important;
+}
+
+h4.main_question {
+	font-size: 17px !important;
+}
+.toForm {
+	color: #111 !important;
+}
+.toForm p {
+	color: #9399a1;
+}
+.toForm:hover {
+	background-color: #ffc107;
+	color: #111;
+	border-radius: 0.75rem;
+}
+.toForm:hover .card {
+	background-color: #ffc107;
+}
+.toForm:hover p {
+	color: #111;
+}
+
+.container_numbers input[type='radio']:checked ~ .radio {
+	transition: all 450ms;
+	color: #fff;
+}
+.container_numbers input[type='radio']:checked ~ .radio.very_very_bad {
+	background-color: #7d0f19;
+}
+.container_numbers input[type='radio']:checked ~ .radio.very_bad {
+	background-color: #dc3545;
+}
+.container_numbers input[type='radio']:checked ~ .radio.bad {
+	background-color: #ea6d2c;
+}
+.container_numbers input[type='radio']:checked ~ .radio.average {
+	background-color: #ffc107;
+}
+.container_numbers input[type='radio']:checked ~ .radio.good {
+	background-color: #759e35;
+}
+.container_numbers input[type='radio']:checked ~ .radio.very_good {
+	background-color: #198754;
+}
+
+button.cekLagi,
+.lihatJawaban,
+.kembaliMenu,
+.lanjut {
+	border: none;
+	color: #111;
+	text-decoration: none;
+	transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-webkit-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+	background: #ffcc00;
+	position: relative;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 600;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	line-height: 1;
+	padding: 12px 30px;
+}
+
+button.backward,
+button.cekLagi,
+.kembali,
+.kembaliMenu {
+	color: #111 !important;
+	background: #9e9e9e !important;
+}
+
+.backward:hover,
+.cekLagi:hover,
+.kembali:hover,
+.kembaliMenu:hover {
+	background: #fff !important;
+}
+
+.forward:hover,
+.process:hover,
+button.submit:hover,
+.lihatJawaban:hover,
+.lanjut:hover {
+	background: #9e9e9e !important;
+}
+
+.my-transp-bg {
+	background: rgba(0, 0, 0, 0.45);
+}
+
+.title-on-card {
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.card.my-transp-bg .row div:not(:last-child) {
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.my-list-number {
+	list-style: number;
+	margin-left: 32px;
+}
+
+.my-list-number li,
+.my-list-point li {
+	margin-bottom: 12px;
+}
+
+.my-list-point {
+	list-style: disc;
+	margin-left: 32px;
+}
+
+.forward-outline {
+	border: 1px solid #ffc107;
+	color: #ffc107;
+	border-radius: 4px;
+	padding: 1rem;
+}
+
+.forward-outline:hover {
+	color: #ffc107;
+}
+
+.ya-tidak-options li:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.accordion {
+	--bs-accordion-bg: rgba(0, 0, 0, 0.4);
+	--bs-accordion-border-color: none;
+}
+
+.accordion-item {
+	color: #fff;
+}
+
+.accordion-button.collapsed {
+	color: #fff;
+	background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #fff;
+	background-color: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.accordion-button.collapsed::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+#collapseOne ol,
+#collapseOne ul {
+	list-style: inherit;
+}
+
+.kv-grid-table.table.table-sm.kv-table-wrap {
+	color: #fff;
+	border-collapse: separate;
+}
+.kv-grid-table.table.table-sm.kv-table-wrap tbody,
+tbody td {
+	background: rgba(0, 0, 0, 0.3);
+	border-style: none;
+}
+
+.kv-table-header.crud-datatable {
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+}
+
+.date-custom .input-group-append {
+	margin-left: 0 !important;
+}
+
+.date-custom .input-group-text.kv-date-picker {
+	height: 38px;
+	width: 35px;
+	background-color: #00ac9a;
+	border: none;
+	border-radius: 0;
+	border-top-right-radius: 0.375rem;
+	border-bottom-right-radius: 0.375rem;
+}
+
+.date-custom .input-group-text.kv-date-picker i {
+	color: #fff !important;
+}
+
+.date-custom .form-control.krajee-datepicker {
+	height: 38px;
+}
+
+.date-custom .input-group.date {
+	width: 100%;
+}
+.date-custom .input-group.date {
+	flex-wrap: nowrap;
+}
+
+.pagination {
+	justify-content: end;
+}
+
+.pagination .page-link,
+.page-item.disabled .page-link {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	border: none;
+	font-size: 12px;
+}
+
+.page-item.active .page-link {
+	background-color: #00ac9a;
+}
+
+td.crud-datatable {
+	padding: 1rem;
+}
+/* .page-item.disabled {
+	background-color: rgba(0, 0, 0, 0.3);
+} */
+
+.filter-jawaban {
+	grid-auto-flow: column;
+	grid-auto-columns: 30% 30% 29% 11%;
+	grid-gap: 0.5rem;
+}
+
+.text-pertanyaan-jawaban {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.filter-jawaban-f02 {
+	grid-gap: 0.5rem;
+	grid-auto-flow: column;
+	grid-auto-columns: 22% 22% 22% 22% auto;
+}
+
+.form-pertanyaan-jawaban {
+	grid-auto-flow: column;
+	grid-gap: 0.2rem;
+}
+
+.judul-aspek-form-jawaban {
+	font-size: 13px;
+	margin-bottom: 0.2rem;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+@media only screen and (max-width: 600px) {
+	ul#jenisPekerjaan {
+		grid-template-columns: auto !important;
+	}
+
+	.container_centering {
+		padding-top: 2rem !important;
+	}
+}
+
+@media (max-width: 767px) {
+	body.style_2 {
+		background: #93f url(https://emonkuyanlik.sumutprov.go.id/form_assets/img/pattern_3.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.wrapper_centering {
+		padding-top: 0 !important;
+	}
+	footer#footer {
+		position: static !important;
+	}
+	.container_centering .container {
+		margin-top: 3rem !important;
+	}
+
+	.filter-jawaban,
+	.filter-jawaban-f02,
+	.form-pertanyaan-jawaban {
+		grid-auto-flow: row;
+		grid-auto-columns: auto;
+	}
+}
+
+.kv-align-middle.crud-datatable.kv-grid-group.kv-group-even {
+	background-color: var(--bs-table-bg) !important;
+}
